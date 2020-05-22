@@ -34,7 +34,7 @@ public class Solitario {
         }
     }
 
-    public static Stack origen(Jugador jugador) throws Exception {
+    public static Stack<Carta> origen(Jugador jugador) throws Exception {
         int numero = 0;
         while (numero < 1 || numero > 16) {
             numero = ES.pideNumero("\nIntroduzca el número del monton origen [1 - 16]: ");
